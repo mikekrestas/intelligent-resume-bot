@@ -32,8 +32,8 @@ const Education = () => {
                     First Class Honours
                   </Badge>
                 </div>
-                <div className="flex items-start gap-2 text-muted-foreground">
-                  <Award className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                <div className="flex items-center gap-2 text-muted-foreground">
+                  <Award className="w-5 h-5 text-primary mt-0 flex-shrink-0" />
                   <p>Placed in the Faculty of Science and Health Dean's List for academic years 2020, 2021, and 2022</p>
                 </div>
               </div>
@@ -50,12 +50,12 @@ const Education = () => {
                   IT Skills & Certifications
                 </h3>
                 <ul className="space-y-3">
-                  <li className="flex items-start gap-2 text-muted-foreground">
-                    <span className="text-primary mt-1">•</span>
+                  <li className="flex items-center gap-2 text-muted-foreground">
+                    <span className="text-primary">•</span>
                     <span>CCNA Routing and Switching: Introduction to Networks Certificate</span>
                   </li>
-                  <li className="flex items-start gap-2 text-muted-foreground">
-                    <span className="text-primary mt-1">•</span>
+                  <li className="flex items-center gap-2 text-muted-foreground">
+                    <span className="text-primary">•</span>
                     <span>Switching, Routing and Wireless Essentials CCNAv7 Certificate</span>
                   </li>
                 </ul>
@@ -81,6 +81,9 @@ const Education = () => {
                   </Badge>
                   <Badge variant="outline" className="text-base px-4 py-2">
                     German (Advanced)
+                  </Badge>
+                  <Badge variant="outline" className="text-base px-4 py-2">
+                    Chinese (Beginner)
                   </Badge>
                 </div>
               </div>

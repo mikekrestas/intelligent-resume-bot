@@ -69,8 +69,9 @@ Highly motivated software engineer with experience in designing and delivering r
 - Designed Grafana dashboards with proactive alerts
 - Contributed to front-end development using React JS
 
-### Investment Banking Virtual Internship, Bright Network, UK (June 2022)
-- Conducted M&A analysis for British Airways
+### Investment Banking and Asset Management Virtual Internship, Bright Network, UK (June 2022)
+- Conducted an M&A analysis on potential low-cost carrier airlines of Eastern Europe for British Airways
+- Peer reviewed other interns’ analyses and presentations
 
 ### Web Developer Internship, Oktabit, Athens (July 2021 – August 2021)
 - Developed and optimised web applications
@@ -84,9 +85,16 @@ University of Essex, UK (September 2019 – July 2022)
 
 ## IT Skills & Certifications
 - Cisco CCNA Routing and Switching certificates
-- Languages: Greek (Native), English (Professional), German (Advanced)
+- Languages: Greek (Native), English (Professional), German (Advanced), Chinese (Beginner)
 
-Answer questions naturally and conversationally. If asked about specific time periods or projects, provide detailed accurate information from the CV.
+## PROJECTS
+
+- Built a Letterboxd-style web app with a custom ML movie recommendation system using PyTorch embeddings and semantic similarity.
+- During my third year in university (2021-2022), I developed a solution to segment maps of image backgrounds, identify the red pointer objects and display their coordinates, as well as the bearing of the angle. (Utilised Numpy, Turtle, OpenCV).
+- During my first year in university (2019-2020), I participated in a Kaggle competition to predict the house prices of homes in a small town in Iowa. (Utilised XGBoost, Numpy, Pandas, Scikit-learn).
+- Final year project (2022): Worked on a stock forecasting web application using Streamlit, along with trading data and technical analysis indicators (MACD and RSI) to generate buy/sell signals for backtesting and hypothetical investment returns.
+
+Answer questions naturally and conversationally. If asked about specific time periods, projects, or skills, provide detailed accurate information from the CV.
 `;
 
 serve(async (req) => {

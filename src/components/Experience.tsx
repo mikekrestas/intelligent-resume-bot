@@ -47,6 +47,16 @@ const experiences = [
     ]
   },
   {
+    title: "Investment Banking and Asset Management Virtual Internship",
+    company: "Bright Network, UK",
+    period: "June 2022 – June 2022",
+    current: false,
+    highlights: [
+      "Conducted an M&A analysis on potential low-cost carrier airlines of Eastern Europe for British Airways",
+      "Peer reviewed other interns’ analyses and presentations"
+    ]
+  },
+  {
     title: "Web Developer Internship",
     company: "Oktabit, Athens",
     period: "July 2021 - August 2021",
@@ -79,12 +89,12 @@ const Experience = () => {
                 className="p-6 bg-card border-border hover:border-primary/50 transition-all duration-300 hover:shadow-card md:ml-16 animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="flex flex-col md:flex-row md:items-start gap-4">
-                  <div className="hidden md:flex items-center justify-center w-16 h-16 -ml-24 bg-primary/10 rounded-full border-4 border-background">
+                <div className="flex flex-col md:flex-row md:items-start gap-4 relative">
+                  {/* Absolutely positioned Briefcase icon for timeline */}
+                  <div className="hidden md:flex items-center justify-center w-16 h-16 -ml-32 bg-primary/10 rounded-full border-4 border-background">
                     <Briefcase className="w-6 h-6 text-primary" />
                   </div>
-                  
-                  <div className="flex-1">
+                  <div className="flex-1 md:ml-8">
                     <div className="flex flex-wrap items-start justify-between gap-2 mb-3">
                       <div>
                         <h3 className="text-xl font-bold text-foreground">
@@ -103,8 +113,8 @@ const Experience = () => {
                     
                     <ul className="space-y-2">
                       {exp.highlights.map((highlight, i) => (
-                        <li key={i} className="text-muted-foreground flex items-start gap-2">
-                          <span className="text-primary mt-1">•</span>
+                        <li key={i} className="text-muted-foreground flex items-center gap-2">
+                          <span className="text-primary">•</span>
                           <span>{highlight}</span>
                         </li>
                       ))}
