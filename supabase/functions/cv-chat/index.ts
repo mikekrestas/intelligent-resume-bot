@@ -77,14 +77,24 @@ Highly motivated software engineer with experience in designing and delivering r
 - Developed and optimised web applications
 - Designed product management application automating workflows
 
+
 ## EDUCATION
 
 ### Bachelor of Science (BSc Hons) in Computer Science — First Class Honours
 University of Essex, UK (September 2019 – July 2022)
 - Placed in Faculty of Science and Health Dean's List for 2020, 2021, and 2022
 
+### Venture Capital and Private Equity (online)
+Università Bocconi (Jan 2022 – Feb 2022)
+- Skills: Private Equity · Venture Capital · Investment Management
+
+
 ## IT Skills & Certifications
 - Cisco CCNA Routing and Switching certificates
+- Agile Fundamentals (QA North America, Issued Aug 2023)
+- Cloud Literacy (QA North America, Issued Aug 2023)
+- Cyber Security Fundamentals Pathway (QA North America, Issued Aug 2023)
+- Site Reliability Engineering (SRE) Foundation (QA North America, Issued Aug 2023)
 - Languages: Greek (Native), English (Professional), German (Advanced), Chinese (Beginner)
 
 ## PROJECTS

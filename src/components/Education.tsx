@@ -13,7 +13,9 @@ const Education = () => {
           Academic background and professional qualifications
         </p>
 
+
         <div className="space-y-6">
+          {/* University of Essex */}
           <Card className="p-8 bg-card border-border hover:border-primary/50 transition-all duration-300 hover:shadow-card animate-fade-in">
             <div className="flex items-start gap-6">
               <div className="p-4 bg-primary/10 rounded-lg">
@@ -40,6 +42,30 @@ const Education = () => {
             </div>
           </Card>
 
+          {/* Università Bocconi */}
+          <Card className="p-8 bg-card border-border hover:border-primary/50 transition-all duration-300 hover:shadow-card animate-fade-in" style={{ animationDelay: "0.05s" }}>
+            <div className="flex items-start gap-6">
+              <div className="p-4 bg-primary/10 rounded-lg">
+                <GraduationCap className="w-8 h-8 text-primary" />
+              </div>
+              <div className="flex-1">
+                <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
+                  <div>
+                    <h3 className="text-2xl font-bold text-foreground mb-2">
+                      Venture Capital and Private Equity (online)
+                    </h3>
+                    <p className="text-lg text-primary font-medium">Università Bocconi</p>
+                    <p className="text-muted-foreground">Jan 2022 – Feb 2022</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2 text-muted-foreground">
+                  <Award className="w-5 h-5 text-primary mt-0 flex-shrink-0" />
+                  <p>Skills: Private Equity · Venture Capital · Investment Management</p>
+                </div>
+              </div>
+            </div>
+          </Card>
+
           <Card className="p-8 bg-card border-border hover:border-primary/50 transition-all duration-300 hover:shadow-card animate-fade-in" style={{ animationDelay: "0.1s" }}>
             <div className="flex items-start gap-6">
               <div className="p-4 bg-primary/10 rounded-lg">
@@ -57,6 +83,22 @@ const Education = () => {
                   <li className="flex items-center gap-2 text-muted-foreground">
                     <span className="text-primary">•</span>
                     <span>Switching, Routing and Wireless Essentials CCNAv7 Certificate</span>
+                  </li>
+                  <li className="flex items-center gap-2 text-muted-foreground">
+                    <span className="text-primary">•</span>
+                    <span>Agile Fundamentals (QA North America, Issued Aug 2023)</span>
+                  </li>
+                  <li className="flex items-center gap-2 text-muted-foreground">
+                    <span className="text-primary">•</span>
+                    <span>Cloud Literacy (QA North America, Issued Aug 2023)</span>
+                  </li>
+                  <li className="flex items-center gap-2 text-muted-foreground">
+                    <span className="text-primary">•</span>
+                    <span>Cyber Security Fundamentals Pathway (QA North America, Issued Aug 2023)</span>
+                  </li>
+                  <li className="flex items-center gap-2 text-muted-foreground">
+                    <span className="text-primary">•</span>
+                    <span>Site Reliability Engineering (SRE) Foundation (QA North America, Issued Aug 2023)</span>
                   </li>
                 </ul>
               </div>
