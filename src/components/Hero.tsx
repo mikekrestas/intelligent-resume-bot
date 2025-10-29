@@ -55,6 +55,15 @@ const Hero = () => {
             >
               <Linkedin className="w-6 h-6" />
             </a>
+            <a
+              href="https://github.com/mikekrestas"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground/60 hover:text-primary transition-colors"
+              aria-label="GitHub"
+            >
+              <Github className="w-6 h-6" />
+            </a>
             <a 
               href="mailto:michaelkrestas1@gmail.com"
               className="text-foreground/60 hover:text-primary transition-colors"
